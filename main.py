@@ -52,8 +52,8 @@ class BusFrame(tk.Frame):
 
         self.parent = parent
 
-        self.label = tk.Label(self, text=self.bus_fstring.format(""))
-        self.label.grid(row=0, column=0, sticky='w')
+        self.titlelabel = tk.Label(self, text=self.bus_fstring.format(""))
+        self.titlelabel.grid(row=0, column=0, sticky='w')
 
         self.grid_rowconfigure(1, minsize=10)
 

@@ -1,0 +1,3 @@
+Add doc strings
+Max 1 year
+Ensure cant pick date already happened
